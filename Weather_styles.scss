@@ -1,93 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-*{ 
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{ 
-
-    font-family: 'Poppins', sans-serif;
-    background-color: #181818;
-    height: 100vh;
-    color: #eeeffe;
-  
-    
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #181818;
+  height: 100vh;
+  color: #eeeffe;
 }
-.box_container{ 
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    height: 100vh;
+.box_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.Card{ 
-     display: flex;
-     align-self: center;
-     flex: 1;
-     width: 90%;
-     max-width: 470px;
-     justify-content: center;
-     background: rgb(9,80,121);
-     background: linear-gradient(135deg, rgba(9,80,121,1) 16%, rgba(15,201,238,1) 78%);
-     border-radius: 30px;
-     padding: 25px;
-    
+.Card {
+  display: flex;
+  align-self: center;
+  flex: 1;
+  width: 90%;
+  max-width: 470px;
+  justify-content: center;
+  background: rgb(9, 80, 121);
+  background: linear-gradient(
+    135deg,
+    rgba(9, 80, 121, 1) 16%,
+    rgba(15, 201, 238, 1) 78%
+  );
+  border-radius: 30px;
+  padding: 25px;
+}
+.Search_form input {
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  padding: 4px;
+  width: 280px;
+  margin: 10px;
+  font-size: 25px;
+  padding: 12px;
+}
+.Search::placeholder {
+  font-size: 16px;
+  padding: 25px;
+  color: #181818;
+}
+.Search_form button {
+  margin: 0;
+  height: 4.3em;
+  width: 4.3em;
+  border-radius: 50%;
+  border: none;
+  background-color: #eeeffe;
+}
 
+.Search_form button img {
+  height: 16px;
 }
-.Search_form input{ 
-     height: 45px;
-     border-radius: 25px;
-     border: none;
-     padding: 4px;
-     width: 280px;
-     margin: 10px;
-     font-size: 25px;
-   padding: 12px;
+.Weather_info img {
+  max-height: 12rem;
 }
-.Search::placeholder{ 
-    font-size: 16px;
-     padding: 25px;
-     color: #181818;
-}
-.Search_form button{ 
-
-     margin: 0;
-     height: 4.3em;
-     width: 4.3em;
-     border-radius: 50%;
-     border: none;
-     background-color: #eeeffe;
-
-
-}
-
-.Search_form button img{ 
-     height: 16px;
-}
-.Weather_info img{ 
-     max-height: 12rem;
-    
-}
-.Weather_info{ 
+.Weather_info {
   text-align: center;
 }
-.Weather_info:nth-child(2){ 
-     font-size: 23px;
-     font-weight: 800;
+.Weather_info:nth-child(2) {
+  font-size: 23px;
+  font-weight: 800;
 }
-.Weather_info_data{ 
-     font-size: 80px;
+.Weather_info_data {
+  font-size: 80px;
 }
-.data_additional{ 
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    overflow: hidden;
-    text-align: center;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 7px;
+.data_additional {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 7px;
 }
-
